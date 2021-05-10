@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yo me animo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<body>
+    <main>
+        <header>
+            <!-- titulo principal -->
+            <h1>yo me animo!!</h1>
+            <div class="imag">
+                <img src="logo yo me animo.png" alt="logotipo yo me animo">
+            </div>
+        </header>
+        <article>
+            <section class="section1">
+                <div class="imag">
+                    <!-- logotipo -->
+                    <img src="imagen article.png" alt="article">
+                </div>
+            </section>
+            <section>
+                <!-- introduccion-->
+                <h2>Animate a viajar y a trabar por el mundo</h2>
+                <p>
+                    Te acercamos toda la información necesaria, para que puedas armar todo tu viaje de Working Holiday,
+                    totalmente gratis, con info actualizada al día de hoy!
+                </p>
+            </section>
+            <section>
+                 <!-- breve explicacion de la visa-->
+                 <h2>¿Que es una visa working holiday?</h2>
+                 <p>
+                     Una visa working holiday es un permiso de residencia que permite a los viajeros emprender un empleo (y a veces estudiar) en el país que emite la visa para complementar sus fondos de viaje. Para muchos jóvenes, tener una visa de trabajo y vacaciones les permite vivir la experiencia de vivir en un país extranjero sin tener que afrontar los costosos gastos habituales de encontrar un patrocinio laboral por adelantado o participar en costosos programas de intercambio universitario.
+                 </p>
+            </section>
+            <section>
+                 <!-- como aplicar a la visa -->
+                 <h2>¿Querés saber cómo viajar y trabajar por el mundo?</h2>
+                 <p>
+                     Te acercamos toda la información necesaria para que puedas armar todo tu viaje de Working Holiday, totalmente gratis, con info actualizada al día de hoy!
+                 </p>
+                 <form action="./form-result.php" method="post" target="_self"><!-- formulario -->
+                    <ul>
+                        <li><!-- nombre -->
+                            <input type="text" name="name" placeholder="Nombre*" required="">
+                        </li>
+                        <li><!-- pais de origen -->
+                            <label for="selec"> pais de origen:</label>
+                            <select name="origen">
+                                <!-- item selec -->
+                                <option value="argentina">Argentina</option>
+                                <option value="chile">Chile</option>
+                                <option value="uruguay">Uruguay</option>
+                                <option value="peru">Peru</option>
+                                <option value="españa">España</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </li>
+                        <li><!-- email -->
+                            <input type="email" name="email" placeholder="Email*" required="">
+                        </li>
+                        <li><!-- botom para suscribirse -->
+                            <input type="submit" value="suscribime">
+                        </li>
+                    </ul>
+                </form><!-- indica fin del formulario -->
+            </section>
+        </article>
+        <footer class="footer"><!--links de utilidad -->
+            <div class="imag"><!-- logotipo -->
+                <img src="logo yo me animo.png" alt="logotipo yo me animo">
+            </div>
+            <div class="icono">
+                <h2>sigueme!</h2>
+                <a href="https://www.instagram.com/yomeanimo.ok/"><img src="logo instagram.jpg" alt="logotipo de instagram" width="45px" height="45px"></a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

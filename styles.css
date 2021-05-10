@@ -1,0 +1,95 @@
+*{
+    font-family: 'Lora', serif;
+}
+/* fondo de la pag */
+body{
+    background-image: url(fondo-mapa.jpg);
+    box-sizing: border-box;
+}
+
+/* titulos */
+h1{
+    font-size: 50px;
+    color: rgb(197, 81, 81);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(77, 189, 226);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+/* propiedad a lista */
+section ul {
+    margin: 0;
+    padding: 0;
+}
+
+ section ul li{
+    list-style: none;
+}
+
+/* propiedades al logotipo */
+.imag{
+    width: 100px;
+    height: 100px;
+}
+
+.imag img{
+    width: 100%;
+    height: auto;
+}
+
+/* posicionamiento al logotipo */
+header{
+    position: relative;
+}
+
+header .imag{
+    position: absolute;
+    right: 1%;
+    top: 10%;
+}
+
+/* tuve que usar mala practica */
+.section1{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.section1 .imag{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
+
+/* aliniacion de texto */
+section p{
+    text-align: center;
+}
+
+/* logo footer */
+.footer{
+    position: relative;
+}
+
+.footer .imag{
+    position: absolute;
+     left: 2%;
+     top: 10px;%;
+}
+
+.footer .icono{
+    position: absolute;
+    right: 50%;
+    top: 10%
+}
+
+
+
+
+
