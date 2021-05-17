@@ -1,35 +1,37 @@
 *{
-    font-family: 'Lora', serif;
+   margin: 0;
+   padding: 0;
 }
 /* fondo de la pag */
 body{
+    width: 100vw;
+    height: 100vh;
     background-image: url(fondo-mapa.jpg);
     box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+li{
+    list-style: none;
 }
 
 /* titulos */
 h1{
     font-size: 50px;
-    color: rgb(197, 81, 81);
+    color: rgb(190, 50, 50);
     font-family: 'Lobster', cursive;
-    text-align: center;
 }
 
 h2{
     font-size: 30px;
     color: rgb(77, 189, 226);
     font-family: 'Lobster', cursive;
-    text-align: center;
-}
-
-/* propiedad a lista */
-section ul {
-    margin: 0;
-    padding: 0;
-}
-
- section ul li{
-    list-style: none;
 }
 
 /* propiedades al logotipo */
@@ -43,51 +45,33 @@ section ul {
     height: auto;
 }
 
-/* posicionamiento al logotipo */
+article{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* flexbox */
 header{
-    position: relative;
+    display: flex;
+    justify-content:center;
 }
 
-header .imag{
-    position: absolute;
-    right: 1%;
-    top: 10%;
+footer{
+    display: flex;
+    justify-content: center;
 }
 
-/* tuve que usar mala practica */
-.section1{
-    width: 100%;
-    height: 200px;
-    position: relative;
+form ul li{
+    display:inline-block;
+    margin-right: 20px;
+    padding: 30px;
 }
 
-.section1 .imag{
-    position: absolute;
-    left: 45%;
-    bottom: 10%;
+/* ultimo li del ul */
+form ul li:last-child{
+    margin-right: 0px;
 }
 
-/* aliniacion de texto */
-section p{
-    text-align: center;
-}
-
-/* logo footer */
-.footer{
-    position: relative;
-}
-
-.footer .imag{
-    position: absolute;
-     left: 2%;
-     top: 10px;%;
-}
-
-.footer .icono{
-    position: absolute;
-    right: 50%;
-    top: 10%
-}
 
 
 
