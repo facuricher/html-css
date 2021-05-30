@@ -46,7 +46,6 @@ h2{
 }
 
 article{
-    margin-bottom: 20px;
     padding: 20px;
 }
 
@@ -56,21 +55,45 @@ header{
     justify-content:center;
 }
 
-footer{
+section{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-form ul li{
-    display:inline-block;
-    margin-right: 20px;
-    padding: 30px;
+section .imag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario div{
+    margin-bottom: 20px;
+}
+
+.formulario form ul{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* ultimo li del ul */
 form ul li:last-child{
     margin-right: 0px;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 
 
 
